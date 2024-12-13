@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+
+</head>
+
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Renz Salud</div>
+        <div>
+          <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="Project.html">Project</a></li>
+          </ul>
+        </div>
+      </nav>
+      <nav id="hamburger-nav">
+        <div class="logo">Renz Salud</div>
+        <div class="hamburger-menu">
+          <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="menu-links">
+            <li><a href="index.html" onclick="toggleMenu()">Home</a></li>
+            <li><a href="about.html" onclick="toggleMenu()">About</a></li>
+            <li><a href="Project.html" onclick="toggleMenu()">Projects</a></li>
+          </div>
+        </div>
+      </nav>
+  <main>
+    <article>
+
+      <section class="contact" aria-labelledby="contact-label">
+        <div class="container">
+
+          <form action="" class="contact-form">
+
+            <h2 class="headline-sm" id="contact-label">Contact me</h2>
+
+            <p class="contact-text body-md">
+              Connect with me.
+            </p>
+
+            <div class="wrapper">
+
+              <div>
+                <label for="name" class="label">First name</label>
+
+                <input type="text" name="name" id="name" placeholder="Name *" required class="input-field">
+              </div>
+
+              <div>
+                <label for="email" class="label">Your Email </label>
+
+                <input type="email" name="email" id="email" placeholder="Email *" required class="input-field">
+              </div>
+
+            </div>
+            <div class= "wrapper2" > 
+            <label for="subject" class="label">Subject</label>
+            <input type="text" name="subject" id="subject" placeholder="Subject *" class="input-field">
+
+            <label for="message" class="label">Your message </label>
+            <textarea name="message" id="message" placeholder="Your message *" required class="input-field"></textarea>
+            </div>
+
+            <a href="#" class="btn-tertiary">Send Message</a>
+
+          </form>
+
+          <div class="contact-content">
+
+            <ul class="contact-list">
+
+              <li class="contact-item">
+
+                <div class="item-icon" style="background-color: hsl(177, 39%, 72%)">
+                  <ion-icon name="call" aria-hidden="true"></ion-icon>
+                </div>
+
+                <div>
+                  <p class="label-lg">Phone</p>
+
+                  <a href="#" class="body-lg">0909 0909 099</a>
+                </div>
+
+              </li>
+
+              <li class="contact-item">
+
+                <div class="item-icon" style="background-color: hsl(41, 99%, 64%)">
+                  <ion-icon name="mail" aria-hidden="true"></ion-icon>
+                </div>
+
+                <div>
+                  <p class="label-lg">Mail</p>
+
+                  <a href="#" class="body-lg">rvdsalud@pcu.edu.ph</a>
+                </div>
+
+              </li>
+
+              <li class="contact-item">
+
+                <div class="item-icon" style="background-color: hsl(19, 97%, 85%)">
+                  <ion-icon name="location" aria-hidden="true"></ion-icon>
+                </div>
+
+                <div>
+                  <p class="label-lg">Visit My School</p>
+
+                  <address class="body-lg">
+                    Philippine Christian University,
+                    Dasmarinas, Cavite
+                  </address>
+                </div>
+
+              </li>
+
+            </ul>
+
+          </div>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+  <footer class="footer">
+    <div class="container">
+
+      <ul class="social-list">
+
+        <li>
+          <a href="https://www.facebook.com/its.yow.boy" class="social-link">
+            <ion-icon name="logo-facebook"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="https://twitter.com/Watthefckisdis" class="social-link">
+            <ion-icon name="logo-twitter"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="https://www.instagram.com/renzsalud/" class="social-link">
+            <ion-icon name="logo-instagram"></ion-icon>
+          </a>
+        </li>
+
+      </ul>
+
+      <p class="text-center">&copy; 2023 copyright all right reserved</p>
+
+    </div>
+  </footer>
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

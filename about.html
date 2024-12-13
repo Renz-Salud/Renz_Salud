@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About me</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Renz Salud</div>
+        <div>
+          <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Project.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <nav id="hamburger-nav">
+        <div class="logo">Renz Salud</div>
+        <div class="hamburger-menu">
+          <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="menu-links">
+            <li><a href="index.html" onclick="toggleMenu()">Home</a></li>
+            <li><a href="Project.html" onclick="toggleMenu()">Projects</a></li>
+            <li><a href="contact.html" onclick="toggleMenu()">Contact</a></li>
+          </div>
+        </div>
+      </nav>
+    </nav>
+      
+    <section id="about">
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+          <div class="section__pic-container">
+            <img
+              src="./images/Background2.jpg"
+              alt="Profile picture"
+              class="about-pic"
+            />
+          </div>
+          <div class="about-details-container">
+            <div class="about-containers">
+              <div class="details-container">
+                <h3>Experience</h3>
+                <p>-Basic java coding <br />-small experience on website <br/> -Vlog and edit videos</p>
+              </div>
+              <div class="details-container">
+                <h3>Skills and Expertise</h3>
+                <p>-Critical thinker <br/> -Hardworker <br/> -Coding <br/> -Resourceful </p>
+              </div>
+            </div>
+            <div class="text-container">
+              <p>
+                Hi, I am Renz Vhiel D. Salud 20 years old and studying at PCU Dasmarinas, Cavite.
+                I like to play games and learn some computer software or hardware, I dream of 
+                particpating of developing future games. 
+              </p>
+            </div>
+          </div>
+        </div>
+       
+        
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+  
+        <ul class="social-list">
+  
+          <li>
+            <a href="https://www.facebook.com/its.yow.boy" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+  
+          <li>
+            <a href="https://twitter.com/Watthefckisdis" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+  
+          <li>
+            <a href="https://www.instagram.com/renzsalud/" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+  
+        </ul>
+  
+        <p class="text-center">&copy; 2023 copyright all right reserved</p>
+  
+      </div>
+    </footer>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <script src="script.js"></script>
+</body>
+</html>
